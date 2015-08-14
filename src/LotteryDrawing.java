@@ -7,6 +7,7 @@ import java.util.*;
  * @author Cay Horstmann
  */
 public class LotteryDrawing {
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 
