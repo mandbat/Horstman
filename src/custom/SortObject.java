@@ -22,7 +22,7 @@ public class SortObject {
 			System.out.println(i.getId() + " - " + i.getVolume());
 		}
 		
-		System.out.println(" - Класс реализует Comparable? - " + ((items[0] instanceof Comparable<?>)?"Да":"Нет"));
+		System.out.println("     - Класс реализует Comparable? - " + ((items[0] instanceof Comparable<?>)?"Да":"Нет"));
 	}
 
 }
