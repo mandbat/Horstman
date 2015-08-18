@@ -5,21 +5,21 @@ import java.util.Arrays;
 public class SortObject {
 
 	public static void main(String[] args) {
-		
+
 		Item[] items = new Item[3];
 		items[0] = new Item("it-01", 10, 10, 10);
 		items[1] = new Item("it-02", 20, 10, 10);
 		items[2] = new Item("it-03", 5, 5, 5);
-		
-		for (Item i : items){
-			System.out.println(i.getId());
+
+		for (Item i : items) {
+			System.out.println(i.getId() + " - " + i.getVolume());
 		}
-		
+
 		Arrays.sort(items);
-		
+
 		System.out.println("Sorted:");
-		for (Item i : items){
-			System.out.println(i.getId());
+		for (Item i : items) {
+			System.out.println(i.getId() + " - " + i.getVolume());
 		}
 	}
 
@@ -47,6 +47,10 @@ class Item implements Comparable<Item> {
 		this.heigh = heigh;
 		this.lengthy = lengthy;
 		this.width = width;
+	}
+
+	public int getVolume() {
+		return this.heigh * this.width * this.lengthy;
 	}
 
 	public String getId() {
