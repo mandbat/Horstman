@@ -21,6 +21,8 @@ public class SortObject {
 		for (Item i : items) {
 			System.out.println(i.getId() + " - " + i.getVolume());
 		}
+		
+		System.out.println("Класс реализует Comparable? - " + ((items[0] instanceof Comparable<?>)?"Да":"Нет"));
 	}
 
 }
