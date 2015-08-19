@@ -44,5 +44,24 @@ class Employee {
 	int getWeight() {
 		return weight;
 	}
+	
+	void setAge(int age){
+		
+	}
 
+}
+
+class AAA {
+	
+	void Age(){
+		
+	}
+}
+
+class BBB extends AAA {
+	
+
+	void Age(){
+		
+	}
 }
