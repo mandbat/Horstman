@@ -6,8 +6,6 @@ public class SortObject {
 
 	public static void main(String[] args) {
 		
-		//br02 change
-
 		Item[] items = new Item[3];
 		items[0] = new Item("it-01", 10, 10, 10);
 		items[1] = new Item("it-02", 20, 10, 10);
