@@ -52,3 +52,19 @@ class Employee {
 }
 
 
+class AAA {
+	
+	void Age(){
+		
+	}
+}
+
+class BBB extends AAA {
+	
+
+	void Age(){
+		
+	}
+}
+
+
