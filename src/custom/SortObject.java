@@ -24,8 +24,6 @@ public class SortObject {
 		
 		System.out.println("Класс реализует Comparable? - " + ((items[0] instanceof Comparable<?>)?"Да":"Нет"));
 		
-		Item it01 = new Item("it01", 10, 10, 10);
-//		Item it02 = it01.c
 	}
 
 }
