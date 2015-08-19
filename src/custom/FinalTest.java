@@ -1,4 +1,4 @@
-package myclasses;
+package custom;
 
 import static java.lang.System.out;
 

@@ -1,4 +1,4 @@
-package myclasses;
+package custom;
 
 import java.util.Objects;
 
