@@ -8,10 +8,10 @@ public class ArrayListTest {
 
 		ArrayList<Employee> empList = new ArrayList<>(5);
 		empList.ensureCapacity(3);
-		empList.add(new Employee("Ivan ", 15, 50));
-		empList.add(new Employee("Andrey ", 32, 65));
-		empList.add(new Employee("Andrey ", 32, 65));
-		empList.add(new Employee("Andrey ", 32, 65));
+		empList.add(new Employee("Ivan 1", 15, 50));
+		empList.add(new Employee("Andrey 1", 32, 65));
+		empList.add(new Employee("Andrey 1", 32, 65));
+		empList.add(new Employee("Andrey 1", 32, 65));
 
 
 		for (Employee e : empList) {
