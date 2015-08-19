@@ -5,6 +5,8 @@ import java.util.Arrays;
 public class SortObject {
 
 	public static void main(String[] args) {
+		
+		//br02 change
 
 		Item[] items = new Item[3];
 		items[0] = new Item("it-01", 10, 10, 10);
