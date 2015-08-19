@@ -6,8 +6,6 @@ public class ArrayListTest {
 
 	public static void main(String[] args) {
 
-		// dsfdfsdfsdf
-		
 		ArrayList<Employee> empList = new ArrayList<>(5);
 		empList.ensureCapacity(3);
 		empList.add(new Employee("Ivan ", 15, 50));
