@@ -22,12 +22,16 @@ public class SortObject {
 			System.out.println(i.getId() + " - " + i.getVolume());
 		}
 		
-		System.out.println("Класс реализует Comparable? - " + ((items[0] instanceof Comparable<?>)?"Да":"Нет"));
+		System.out.println(" Класс реализует Comparable? - " + ((items[0] instanceof Comparable<?>)?"Да":"Нет"));
+		System.out.println("---");
+		
+		Item it01 = new Item("it01", 10, 10, 10);
+//		Item it02 = it01.c
 	}
 
 }
 
-class Item implements Comparable<Item> {
+class Item implements Comparable<Item>, Cloneable {
 
 	private int heigh;
 	private int width;
