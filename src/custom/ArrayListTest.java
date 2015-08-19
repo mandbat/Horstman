@@ -5,6 +5,8 @@ import java.util.ArrayList;
 public class ArrayListTest {
 
 	public static void main(String[] args) {
+		
+		/// br01 change
 
 		ArrayList<Employee> empList = new ArrayList<>(5);
 		empList.ensureCapacity(3);
