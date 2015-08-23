@@ -20,4 +20,11 @@
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>lib/mylog.log</name>
+			<type>1</type>
+			<location>C:/Users/Andrey/mylog.log</location>
+		</link>
+	</linkedResources>
 </projectDescription>
