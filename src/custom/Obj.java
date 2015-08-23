@@ -10,16 +10,12 @@ public class Obj {
 
 	/**
 	 * 
-	 * @param x �������� �������� �� ������� ���������� ��������� �������� ����������
+	 * @param x 
 	 */
 	public void changeI(int x) {
 		i = i * x;
 	}
 	
-	/**
-	 * ���������� ���������� I
-	 * @return ���������� ��������
-	 */
 	public int getI() {
 		return i;
 	}
