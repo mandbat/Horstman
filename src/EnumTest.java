@@ -9,6 +9,7 @@ import java.util.*;
  */
 public class EnumTest {
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 		System.out.print("Enter a size: (SMALL, MEDIUM, LARGE, EXTRA_LARGE) ");
 		String input = in.next().toUpperCase();
