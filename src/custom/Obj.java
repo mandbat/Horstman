@@ -8,10 +8,6 @@ public class Obj {
 		i = k;
 	}
 
-	/**
-	 * 
-	 * @param x 
-	 */
 	public void changeI(int x) {
 		i = i * x;
 	}
