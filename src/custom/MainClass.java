@@ -6,6 +6,7 @@ import java.util.logging.FileHandler;
 import java.util.logging.Handler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
 
 public class MainClass {
 
@@ -13,14 +14,15 @@ public class MainClass {
 
 		Logger logger = Logger.getLogger(MainClass.class.getName());
 
-		Handler myHandler = new FileHandler("%h/mylog.log", false);
-		myHandler.setLevel(Level.ALL);
+		Handler fileHanler = new FileHandler("%h/mylog.log", false);
+		fileHanler.setFormatter(new SimpleFormatter());
+		fileHanler.setLevel(Level.ALL);
 		
-		Handler myHandler2 = new ConsoleHandler();
-		myHandler2.setLevel(Level.ALL);
+		Handler consoleHandler = new ConsoleHandler();
+		consoleHandler.setLevel(Level.ALL);
 		
-		logger.addHandler(myHandler);
-		logger.addHandler(myHandler2);
+		logger.addHandler(fileHanler);
+		logger.addHandler(consoleHandler);
 		logger.setUseParentHandlers(false);
 		
 		logger.setLevel(Level.ALL);
