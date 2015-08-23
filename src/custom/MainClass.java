@@ -30,6 +30,9 @@ public class MainClass {
 		logger.info("Привет от Логгера!!!");
 		logger.fine("Работает - 123");
 		
+		int a = 1;
+		Thread.dumpStack();
+		
 	}
 
 }
