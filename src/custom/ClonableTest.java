@@ -34,7 +34,7 @@ class ItemClonable implements Cloneable {
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
 		ItemClonable tmp = (ItemClonable) super.clone();
-		tmp.i++; 
+//		tmp.i++; 
 		return tmp;
 	}
 	
