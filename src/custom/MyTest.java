@@ -15,13 +15,13 @@ public class MyTest {
 
 		InputStream is = new FileInputStream(new File(""));
 		BufferedInputStream isb = new BufferedInputStream(new FileInputStream(new File("")));
-		
+
 		Properties prop = new Properties();
-		
+
 		FileReader fr = new FileReader(new File(""));
-		
+
 		prop.load(is);
-		
+
 	}
 
 }
